@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+### TP React - Création de composants fonctionnels et utilisation des props
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Objectif du TP
 
-## Available Scripts
+Ce TP a pour objectif de découvrir les bases de React à travers la création de composants fonctionnels, l'utilisation des props, la validation avec PropTypes, et l'affichage de listes dynamiques.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+#### Structure du projet
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img width="283" height="386" alt="Capture d&#39;écran 2026-03-19 002738" src="https://github.com/user-attachments/assets/6a20df61-ae22-4c73-afdf-d0b1a4a76660" />
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**1. Page d'accueil par défaut**  
 
-### `npm run build`
+<img width="1165" height="722" alt="Capture d&#39;écran 2026-03-18 232519" src="https://github.com/user-attachments/assets/a8366639-01d7-4fc6-8959-d3595fc55cfb" />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**2. Premier composant HelloWorld**  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<img width="1156" height="714" alt="Capture d&#39;écran 2026-03-18 233811" src="https://github.com/user-attachments/assets/9fad3b2c-c4d6-4bbd-a9de-9b9835931f8d" />
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**3. Liste des participants avec messages personnalisés**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img width="1234" height="664" alt="Capture d&#39;écran 2026-03-18 234300" src="https://github.com/user-attachments/assets/5a1d8863-7125-477a-9785-cf08d602e12c" />
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**4. Affichage du profil utilisateur avec photo**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+<img width="1007" height="616" alt="Capture d&#39;écran 2026-03-19 000345" src="https://github.com/user-attachments/assets/a44b2661-0c82-4176-a359-224565174aab" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### Démonstration vidéo
 
-### Making a Progressive Web App
+La vidéo de démonstration montre :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**1. Lancement du projet dans le terminal**
 
-### Advanced Configuration
+*Le serveur de développement démarre sur http://localhost:3001*
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**2. Affichage final dans le navigateur**
+L'application affiche :
+- Message de bienvenue (composant HelloWorld)
+- Salutation personnalisée "Bonjour, Elena !" (composant Greeting)
+- Profil utilisateur avec photo (composant Profil)
+- Section **Vehicules** avec 3 modèles :
+  - Toyota Corolla (Hybride)
+  - Renault Clio (Essence)
+  - Tesla Model 3 (Électrique)
+- Section **Listes de courses** avec 3 listes :
+  - Légumes à acheter
+  - Fruits à acheter
+  - Produits ménagers
 
-### Deployment
+**3. Interactions**
+- Affichage dynamique des listes
+- Structure en sections avec styles personnalisés
+- Composants réutilisables avec props
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+#### Technologies utilisées
+- **React** (create-react-app)
+- **JavaScript**
+- **PropTypes** pour la validation des props
+- **CSS-in-JS** (styles intégrés)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
